@@ -1,0 +1,60 @@
+/* @group Inputs */
+
+div#frontforms input {
+    /* default for radio and checkbox. Others will be handled directly */
+    background-color: #EAEBEE;
+}
+
+input#uri, input#file, input#uploaded_file, input#keywords, input#short_desc, textarea {
+	font-family: Monaco, "Courier New", Monospace;
+	font-size: 0.9em;
+	border: 1px solid #bbb;
+	border-top: 1px solid #777;
+	border-bottom: 1px solid #ddd;
+	background: #fefefe url(../images/textbg.png) no-repeat top left;
+	padding: 0.2em 0.2em;
+	max-width: 1000px;
+	font-variant: normal;
+}
+
+input#uri, input#file, input#uploaded_file {
+	width: 85%;
+	margin: 0.3em 0 0 1em;
+}
+
+input#file, input#uploaded_file {
+	width: 30em;
+}
+
+input#mailsearch, input#bugsearch {
+    background-color: #EAEBEE;
+    color: #365D95;
+    padding: .3em 1em;
+    border: 1px outset #ccc;
+  }
+  input#mailsearch:active, input#bugsearch:active {
+    border-style: inset !important;
+  }
+
+label {
+	font-size: 0.9em;
+	padding-left: .2em;
+	padding-right: .2em;
+}
+
+div.options select {
+	margin-right: 0.8em;
+}
+
+div.options label {
+	margin-right: 0.3em;
+}
+
+
+
+
+div.options select {
+	width: 100%;
+}
+
+/* @end */
